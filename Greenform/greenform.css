@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+  }
+  body{
+    background: whitesmoke;
+    padding: 0 10px;
+  }
+  .wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+    padding: 30px;
+    background: greenyellow;
+  }
+  .wrapper .inputfield1 label,
+  .wrapper .inputfield2 label,
+  .wrapper .inputfield3 label,
+  .wrapper .inputfield4 label,
+  .wrapper .inputfield5 label,
+  .wrapper .inputfield6 label,
+  .wrapper .inputfield8 label,
+  .wrapper .inputfield9 label,
+  .wrapper .inputfield10 label{
+    width: 200px;
+    color: #0e0d0d;
+    margin-right: 50px;
+   font-size: 18px;
+ }
+ .wrapper .inputfield7 label{
+    width: 200px;
+    color: #0e0d0d;
+    margin-right: 50px;
+   font-size: 12px;
+ }
+ .wrapper .inputfield1 .input,
+ .wrapper .inputfield2 .input,
+ .wrapper .inputfield3 .input,
+ .wrapper .inputfield4 .input,
+ .wrapper .inputfield5 .input,
+ .wrapper .inputfield6 .input,
+ .wrapper .inputfield7 .input,
+ .wrapper .inputfield8 .input,
+ .wrapper .inputfield9 .input,
+ .wrapper .inputfield10 .input{
+  width: 50%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  
+ }
+  .wrapper .inputfield1,
+  .wrapper .inputfield2,
+  .wrapper .inputfield3,
+  .wrapper .inputfield4,
+  .wrapper .inputfield5,
+  .wrapper .inputfield6,
+  .wrapper .inputfield7,
+  .wrapper .inputfield8,
+  .wrapper .inputfield9,
+  .wrapper .inputfield10{
+    width: 100%;
+    background:greenyellow;
+    padding: 15px;
+    border-style: groove;
+    outline-color: antiquewhite;
+    background: rgb(198, 231, 148);
+  }
+  
+  .wrapper .inputfield4 .textarea{
+    width: 200px;
+    height: 40px;
+    resize: none;
+  }
+  .wrapper .inputfield .btn{
+    
+  background-color: #484b48; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  }
+  .wrapper .inputfield .btn:hover{
+    background: #a2d5f7;
+  }
+  
+       
